@@ -1,0 +1,12 @@
+D:\Visual Studio 2022\Deadlien_formLs\bin\Debug\Deadlien_formLs.exe.config
+D:\Visual Studio 2022\Deadlien_formLs\bin\Debug\Deadlien_formLs.exe
+D:\Visual Studio 2022\Deadlien_formLs\bin\Debug\Deadlien_formLs.pdb
+D:\Visual Studio 2022\Deadlien_formLs\obj\Debug\Deadlien_formLs.csproj.AssemblyReference.cache
+D:\Visual Studio 2022\Deadlien_formLs\obj\Debug\Deadlien_formLs.Form1.resources
+D:\Visual Studio 2022\Deadlien_formLs\obj\Debug\Deadlien_formLs.Properties.Resources.resources
+D:\Visual Studio 2022\Deadlien_formLs\obj\Debug\Deadlien_formLs.csproj.GenerateResource.cache
+D:\Visual Studio 2022\Deadlien_formLs\obj\Debug\Deadlien_formLs.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2022\Deadlien_formLs\obj\Debug\Deadlien_formLs.exe
+D:\Visual Studio 2022\Deadlien_formLs\obj\Debug\Deadlien_formLs.pdb
+D:\Visual Studio 2022\Deadlien_formLs\bin\Debug\stdole.dll
+D:\Visual Studio 2022\Deadlien_formLs\obj\Debug\Deadlien.65CDECC3.Up2Date

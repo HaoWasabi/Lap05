@@ -1,0 +1,10 @@
+D:\Visual Studio 2022\deadline_from\bin\Debug\deadline_from.exe.config
+D:\Visual Studio 2022\deadline_from\bin\Debug\deadline_from.exe
+D:\Visual Studio 2022\deadline_from\bin\Debug\deadline_from.pdb
+D:\Visual Studio 2022\deadline_from\obj\Debug\deadline_from.csproj.AssemblyReference.cache
+D:\Visual Studio 2022\deadline_from\obj\Debug\deadline_from.Form1.resources
+D:\Visual Studio 2022\deadline_from\obj\Debug\deadline_from.Properties.Resources.resources
+D:\Visual Studio 2022\deadline_from\obj\Debug\deadline_from.csproj.GenerateResource.cache
+D:\Visual Studio 2022\deadline_from\obj\Debug\deadline_from.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2022\deadline_from\obj\Debug\deadline_from.exe
+D:\Visual Studio 2022\deadline_from\obj\Debug\deadline_from.pdb

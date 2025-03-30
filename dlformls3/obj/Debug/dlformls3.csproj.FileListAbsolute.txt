@@ -1,0 +1,10 @@
+D:\Visual Studio 2022\dlformls3\bin\Debug\dlformls3.exe.config
+D:\Visual Studio 2022\dlformls3\bin\Debug\dlformls3.exe
+D:\Visual Studio 2022\dlformls3\bin\Debug\dlformls3.pdb
+D:\Visual Studio 2022\dlformls3\obj\Debug\dlformls3.csproj.AssemblyReference.cache
+D:\Visual Studio 2022\dlformls3\obj\Debug\dlformls3.Form1.resources
+D:\Visual Studio 2022\dlformls3\obj\Debug\dlformls3.Properties.Resources.resources
+D:\Visual Studio 2022\dlformls3\obj\Debug\dlformls3.csproj.GenerateResource.cache
+D:\Visual Studio 2022\dlformls3\obj\Debug\dlformls3.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2022\dlformls3\obj\Debug\dlformls3.exe
+D:\Visual Studio 2022\dlformls3\obj\Debug\dlformls3.pdb
