@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+
 namespace cs.Properties {
     using System;
     
@@ -63,9 +64,16 @@ namespace cs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+
         internal static System.Drawing.Bitmap logo {
             get {
                 object obj = ResourceManager.GetObject("logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap reset_icon_png_2 {
+            get {
+                object obj = ResourceManager.GetObject("reset-icon-png-2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

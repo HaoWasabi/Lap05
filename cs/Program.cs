@@ -10,7 +10,7 @@ namespace QuanLyThuQuan
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MyForm()); // Chạy Form chính
+            //Application.Run(new BookDetails()); // Chạy Form chính
         }
     }
 
