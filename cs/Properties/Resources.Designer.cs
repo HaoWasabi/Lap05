@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
 namespace cs.Properties {
     using System;
     
@@ -64,18 +63,70 @@ namespace cs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-
         internal static System.Drawing.Bitmap logo {
             get {
                 object obj = ResourceManager.GetObject("logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap reset_icon_png_2 {
             get {
                 object obj = ResourceManager.GetObject("reset-icon-png-2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_cartoon_kneeling_reading_boy_png_image_1181774
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("pngtree-cartoon-kneeling-reading-boy-png-image_1181774", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Ảnh_chụp_màn_hình_2025_03_29_221720
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("Ảnh chụp màn hình 2025-03-29 221720", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Ảnh_chụp_màn_hình_2025_03_30_133501
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("Ảnh chụp màn hình 2025-03-30 133501", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5aa2fdfe968447632e99f56cf4e6e165_png_wh860
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("5aa2fdfe968447632e99f56cf4e6e165.png_wh860", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
     }
 }
