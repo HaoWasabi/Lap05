@@ -1,4 +1,7 @@
-﻿namespace WinFormsApp1.Properties
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace WinFormsApp1.Properties
 {
     partial class FormDanhSachViPham
     {

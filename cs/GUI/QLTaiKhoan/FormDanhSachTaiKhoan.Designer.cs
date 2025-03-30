@@ -1,4 +1,8 @@
 ﻿
+using System;
+using System.Drawing;
+using System.Windows.Forms;
+
 namespace WinFormsApp1.Properties
 {
     partial class FormDanhSachTaiKhoan
@@ -94,7 +98,6 @@ namespace WinFormsApp1.Properties
             label30.Size = new Size(108, 21);
             label30.TabIndex = 11;
             label30.Text = "Nguyễn Văn B";
-            label30.Click += label30_Click;
             // 
             // label26
             // 
@@ -105,8 +108,6 @@ namespace WinFormsApp1.Properties
             label26.Name = "label26";
             label26.Size = new Size(109, 21);
             label26.TabIndex = 7;
-            label26.Text = "Nguyễn Văn A";
-            label26.Click += label26_Click;
             // 
             // label7
             // 
@@ -360,7 +361,6 @@ namespace WinFormsApp1.Properties
             label4.Size = new Size(56, 21);
             label4.TabIndex = 0;
             label4.Text = "Mã TK";
-            label4.Click += label4_Click;
             // 
             // label5
             // 
@@ -372,7 +372,6 @@ namespace WinFormsApp1.Properties
             label5.Size = new Size(60, 21);
             label5.TabIndex = 1;
             label5.Text = "Họ tên";
-            label5.Click += label5_Click;
             // 
             // label25
             // 
@@ -384,7 +383,6 @@ namespace WinFormsApp1.Properties
             label25.Size = new Size(82, 21);
             label25.TabIndex = 6;
             label25.Text = "12345678";
-            label25.Click += label25_Click;
             // 
             // label2
             // 
