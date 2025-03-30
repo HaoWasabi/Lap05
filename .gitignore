@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d3b3410 (Update .gitignore)
 *.swp
 *.*~
 project.lock.json
@@ -199,7 +202,12 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 <<<<<<< HEAD
+<<<<<<< HEAD
 #.idea/
 cs/obj/cs.csproj.nuget.dgspec.json
 =======
 #.idea/
+=======
+#.idea/
+cs/obj/cs.csproj.nuget.dgspec.json
+>>>>>>> d3b3410 (Update .gitignore)
