@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hzfuo\\Source\\Repos\\Lap05\\cs\\cs.csproj": {}
+    "C:\\Users\\hzfuo\\source\\repos\\Lap05\\cs\\QuanLyThuQuan.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hzfuo\\Source\\Repos\\Lap05\\cs\\cs.csproj": {
+    "C:\\Users\\hzfuo\\source\\repos\\Lap05\\cs\\QuanLyThuQuan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hzfuo\\Source\\Repos\\Lap05\\cs\\cs.csproj",
-        "projectName": "cs",
-        "projectPath": "C:\\Users\\hzfuo\\Source\\Repos\\Lap05\\cs\\cs.csproj",
+        "projectUniqueName": "C:\\Users\\hzfuo\\source\\repos\\Lap05\\cs\\QuanLyThuQuan.csproj",
+        "projectName": "QuanLyThuQuan",
+        "projectPath": "C:\\Users\\hzfuo\\source\\repos\\Lap05\\cs\\QuanLyThuQuan.csproj",
         "packagesPath": "C:\\Users\\hzfuo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hzfuo\\Source\\Repos\\Lap05\\cs\\obj\\",
+        "outputPath": "C:\\Users\\hzfuo\\source\\repos\\Lap05\\cs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
