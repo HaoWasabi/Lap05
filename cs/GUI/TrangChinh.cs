@@ -54,14 +54,14 @@ namespace GUI
         {
             switch (tabName)
             {
-                case "TH‘NG TIN":
-                    return new ThongTinTaiKhoan();
-                case "TH‘NG B¡O":
+                case "TRANG CH·ª¶":
+                    return null;
+                case "L·ªäCH S·ª¨":
+                    return null;
+                case "TH√îNG B√ÅO":
                     return new ThongBao();
-                case "L?CH S?":
-                    return null;
-                case "C¿I ??T":
-                    return null;
+                case "TH√îNG TIN":
+                    return new ThongTinTaiKhoan();
                 default:
                     return null;
             }
