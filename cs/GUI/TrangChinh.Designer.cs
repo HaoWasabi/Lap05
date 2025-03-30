@@ -53,6 +53,7 @@ namespace GUI
             // 
             // tabInformation
             // 
+            tabInformation.Cursor = Cursors.Default;
             tabInformation.Location = new Point(4, 33);
             tabInformation.Name = "tabInformation";
             tabInformation.Size = new Size(1376, 603);
@@ -62,6 +63,7 @@ namespace GUI
             // 
             // tabAnnouncement
             // 
+            tabAnnouncement.Cursor = Cursors.Default;
             tabAnnouncement.Location = new Point(4, 33);
             tabAnnouncement.Name = "tabAnnouncement";
             tabAnnouncement.Size = new Size(1376, 603);
@@ -71,6 +73,7 @@ namespace GUI
             // 
             // tabHistory
             // 
+            tabHistory.Cursor = Cursors.Default;
             tabHistory.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 163);
             tabHistory.Location = new Point(4, 33);
             tabHistory.Name = "tabHistory";
@@ -84,6 +87,7 @@ namespace GUI
             // 
             tabHome.BackColor = SystemColors.ControlLightLight;
             tabHome.Controls.Add(label1);
+            tabHome.Cursor = Cursors.Default;
             tabHome.Location = new Point(4, 33);
             tabHome.Name = "tabHome";
             tabHome.Padding = new Padding(3);

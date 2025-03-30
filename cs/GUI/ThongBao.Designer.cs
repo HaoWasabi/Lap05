@@ -31,6 +31,8 @@
             flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             llbTitle = new System.Windows.Forms.Label();
             dataGridView1 = new System.Windows.Forms.DataGridView();
+            columnDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            columnThoiGian = new System.Windows.Forms.DataGridViewTextBoxColumn();
             panel1 = new System.Windows.Forms.Panel();
             panel3 = new System.Windows.Forms.Panel();
             btnLast = new System.Windows.Forms.Button();
@@ -38,8 +40,6 @@
             panel2 = new System.Windows.Forms.Panel();
             btnPre = new System.Windows.Forms.Button();
             btnFirst = new System.Windows.Forms.Button();
-            columnDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            columnThoiGian = new System.Windows.Forms.DataGridViewTextBoxColumn();
             flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
@@ -73,6 +73,7 @@
             // 
             // dataGridView1
             // 
+            dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -81,17 +82,29 @@
             dataGridView1.Location = new System.Drawing.Point(0, 50);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
-            dataGridView1.Size = new System.Drawing.Size(1366, 244);
+            dataGridView1.Size = new System.Drawing.Size(1366, 247);
             dataGridView1.TabIndex = 1;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
+            // columnDescription
+            // 
+            columnDescription.HeaderText = "Mô tả";
+            columnDescription.Name = "columnDescription";
+            columnDescription.ReadOnly = true;
+            // 
+            // columnThoiGian
+            // 
+            columnThoiGian.HeaderText = "Thời gian";
+            columnThoiGian.Name = "columnThoiGian";
+            columnThoiGian.ReadOnly = true;
+            // 
             // panel1
             // 
+            panel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             panel1.Controls.Add(panel3);
             panel1.Controls.Add(panel2);
-            panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            panel1.Location = new System.Drawing.Point(0, 254);
+            panel1.Location = new System.Drawing.Point(-1, 254);
             panel1.Name = "panel1";
             panel1.Size = new System.Drawing.Size(1366, 40);
             panel1.TabIndex = 2;
@@ -119,7 +132,7 @@
             btnLast.Name = "btnLast";
             btnLast.Size = new System.Drawing.Size(135, 40);
             btnLast.TabIndex = 4;
-            btnLast.Text = "Trang cuối";
+            btnLast.Text = "Cuối trang";
             btnLast.UseVisualStyleBackColor = false;
             // 
             // btnNext
@@ -154,6 +167,7 @@
             btnPre.BackColor = System.Drawing.Color.Silver;
             btnPre.Cursor = System.Windows.Forms.Cursors.Hand;
             btnPre.Dock = System.Windows.Forms.DockStyle.Right;
+            btnPre.Enabled = false;
             btnPre.FlatAppearance.BorderSize = 0;
             btnPre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             btnPre.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 163);
@@ -170,6 +184,7 @@
             btnFirst.BackColor = System.Drawing.Color.Silver;
             btnFirst.Cursor = System.Windows.Forms.Cursors.Hand;
             btnFirst.Dock = System.Windows.Forms.DockStyle.Left;
+            btnFirst.Enabled = false;
             btnFirst.FlatAppearance.BorderSize = 0;
             btnFirst.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             btnFirst.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 163);
@@ -181,20 +196,6 @@
             btnFirst.Text = "Đầu trang";
             btnFirst.UseVisualStyleBackColor = false;
             // 
-            // columnDescription
-            // 
-            columnDescription.HeaderText = "Mô tả";
-            columnDescription.Name = "columnDescription";
-            columnDescription.ReadOnly = true;
-            columnDescription.Width = 683;
-            // 
-            // columnThoiGian
-            // 
-            columnThoiGian.HeaderText = "Thời gian";
-            columnThoiGian.Name = "columnThoiGian";
-            columnThoiGian.ReadOnly = true;
-            columnThoiGian.Width = 683;
-            // 
             // ThongBao
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -204,7 +205,7 @@
             Controls.Add(dataGridView1);
             Controls.Add(flowLayoutPanel1);
             Name = "ThongBao";
-            Size = new System.Drawing.Size(1366, 294);
+            Size = new System.Drawing.Size(1366, 297);
             flowLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             panel1.ResumeLayout(false);
